@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.206">
+    <testcase classname="Accounting Data Overview Filter" name="Filter using ARE Code" time="0.051">
+        <system-out><![CDATA[Given I have a "ARE Code" "4001"............................................passed
+When I search records using "ARE Code" "4001"...............................passed
+Then Accounting records should be filtered by "ARE Code" "4001".............passed
+And Data present on UI in overview table....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Accounting Data Overview Filter" name="Filter using Country Code" time="0.003">
+        <system-out><![CDATA[Given I have a "Country Code" "DE"..........................................passed
+When I search records using "Country Code" "DE".............................passed
+Then Accounting records should be filtered by "Country Code" "DE"...........passed
+And Data present on UI in overview table....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Accounting Data Overview Filter" name="Filter using Account Valid" time="0.004">
+        <system-out><![CDATA[Given I have a "Account validity" "Valid"...................................passed
+When I search records using "Account" "Valid"...............................passed
+Then Accounting records should be filtered by "Account" "Valid".............passed
+And Data present on UI in overview table....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
